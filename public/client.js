@@ -1,4 +1,4 @@
-const socket = io()
+const socket = io('https://social-app-wine.vercel.app');
 let name;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
